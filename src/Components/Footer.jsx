@@ -4,8 +4,8 @@ const Footer = () => {
         <section className="row  mt-4 footer-background-color">
             <div className="col-md-4 text-left text-light">
                 <h5 className="p-2 text-center text-info">About Us</h5>
-                <p>Yoghurts are creamy, nutrient-rich dairy products made by fermenting milk with beneficial bacteria.</p>
-                <p> They offer probiotics for gut health, protein for muscle growth, and calcium for strong bones, making them a delicious, healthy snack.</p>
+                <p>Geegeee fitness has recieved alot of praises for our services and products we provide good services so that customers can keep fit and healthy</p>
+                <p>We also offer discount to our membership payment depending on the time period you opt to pay for</p>
                 <br/>
             </div>
             <div className="col-md-4 text-light">
@@ -25,11 +25,11 @@ const Footer = () => {
                 <a href="https://instagram.com">
                 <img src="images/ig.jpeg" alt="" className="socialspictures"/>
                 </a>
-                <p className="text-dark"> Nutritious dairy products made by fermenting milk with beneficial bacteria. They come in various flavors, textures, and consistencies, from thick Greek yogurt to drinkable varieties. Rich in probiotics, proteins, and calcium, yoghurts promote gut health, boost immunity, and aid digestion. They can be enjoyed plain, sweetened, or mixed with fruits, nuts, and honey.</p>
-            </div>
+                <p className="text-dark">You can contact us on our social media handle to get more information or if you have questions or you need help from our customer care</p>
+                </div>
         </section>
         <footer className="text-white text-center p-2 mt-2 bootom-footer">
-                <h5>Developed by Bernard Kamotho &copy; 2025.All rights reserved</h5>
+                <h5>Developed by Gael Clinchy &copy; 2025.All rights reserved</h5>
         </footer>
     </div>
     );

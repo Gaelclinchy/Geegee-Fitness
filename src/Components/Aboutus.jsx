@@ -24,7 +24,7 @@ const Aboutus = () => {
                 <li>Terry: Member</li>
                 <li>Antony: Member</li>
             </ul>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque dicta atque, voluptatum minima iste nulla animi excepturi laboriosam? Cum impedit exercitationem minus dolor velit itaque?</p>
+            <p>At Geegee Fitness we offer Greate products and services with the leadership and cooperration of the leaders and  staff</p>
  
 
             <h3 className='text-primary'>Over 30+ services, over 1200+ customers served...</h3>
