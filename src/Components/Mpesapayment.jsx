@@ -64,7 +64,7 @@ const Mpesapayment = () => {
             <br />
             {/* {phone} */}
 
-            <button className='btn btn-success'>Make Payment</button>
+            <button className='btn btn-dark'>Make Payment</button>
         </form>
         </div>
    
