@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useState } from "react"
+import Navbar from "./Navbar";
 
 const Addproduct = () => {
 
@@ -61,9 +62,10 @@ const Addproduct = () => {
     
   return (
 <div className="row justify-content-center mt-4">
+       <Navbar/>
       <div className="col-md-6 card shadow p-4">
         <form onSubmit={submit} >
-           <h2>Add Product</h2>
+           <h2>Add Equipment</h2>
 
            {loading}
            {Message}
@@ -71,7 +73,7 @@ const Addproduct = () => {
 
            <input 
            type="text"
-           placeholder="Enter the product Name"
+           placeholder="Enter the Equipment Name"
            className="form-control"
            value={product_name}
            onChange={(e) => setProductName(e.target.value)}
@@ -104,7 +106,7 @@ const Addproduct = () => {
            onChange={(e) => setProductPhoto(e.target.files[0])}
            required /> <br /> <br />       
 
-           <button type="submit" className="btn btn-dark">Add Product</button>    
+           <button type="submit" className="btn btn-dark">Add Equipment</button>    
         </form>
       </div>
     </div>
